@@ -179,6 +179,7 @@ section{
   font-size:55px;
   margin-bottom:50px;
   font-weight:700;
+  text-align:center;
 }
 
 /* ABOUT */
@@ -322,6 +323,15 @@ section{
 
 /* CONTACT */
 
+.contact-subtitle{
+  color:var(--gray);
+  font-size:20px;
+  margin-top:-25px;
+  margin-bottom:35px;
+  line-height:1.8;
+  text-align:center;
+}
+
 .contact-box{
 
   background:var(--card);
@@ -354,6 +364,42 @@ section{
 .contact-card:hover{
   transform:translateX(10px);
   border-left:5px solid var(--yellow);
+}
+
+/* QUOTE BOX */
+
+.quote-box{
+
+  margin-top:35px;
+  background:#111111;
+  padding:35px;
+  border-radius:22px;
+  border:1px solid rgba(255,217,0,0.12);
+  text-align:center;
+  transition:0.4s;
+
+}
+
+.quote-box:hover{
+  transform:translateY(-5px);
+  box-shadow:0 0 25px rgba(255,217,0,0.12);
+}
+
+.quote-box h3{
+
+  color:var(--yellow);
+  font-size:32px;
+  margin-bottom:15px;
+  font-weight:700;
+
+}
+
+.quote-box p{
+
+  color:var(--gray);
+  font-size:18px;
+  line-height:1.8;
+
 }
 
 /* FOOTER */
@@ -447,6 +493,18 @@ footer{
   .full-name{
     font-size:40px;
     white-space:normal;
+  }
+
+  .contact-subtitle{
+    font-size:16px;
+  }
+
+  .quote-box h3{
+    font-size:24px;
+  }
+
+  .quote-box p{
+    font-size:15px;
   }
 
 }
